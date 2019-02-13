@@ -1,0 +1,5 @@
+
+<input  bindconfirm='setText' placeholder='di'></input>
+
+<textarea placeholder='di'></textarea>
+<button bindtap='fanghui'>放回</button>

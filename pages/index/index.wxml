@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class='container'>
+
+<view class="navbar">
+<view>
+<svg class="icon" aria-hidden="true">
+    <use xlink:href="#icon-user"></use>
+</svg>
+</view>
+ <scroll-view scroll-x>
+   <navigator>你好</navigator>
+   <navigator>你发的司</navigator>
+   <navigator>我好</navigator>
+ </scroll-view>
+<view>
+<image mode='widthFix'></image>
+</view>
+</view>
+<map
+  id="map"
+  longitude="{{longitude}}"
+  latitude="{{latitude}}"
+  scale="18" 
+  markers="{{markers}}"
+></map>
+<view class='footer'>
+<view>
+<text  bindtap='selectStartPoint'>{{startpoint}}</text>
+</view>
+<view>
+<text bindtap='selectEndPoint'>{{endpoint}}</text>
+</view>
+
+</view>
+
+</view>
